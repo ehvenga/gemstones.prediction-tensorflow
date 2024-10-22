@@ -10,6 +10,14 @@ Follow the steps below to set up the model and run the identification process.
 
 Ensure you know the location of the `dataset-processed` folder. This folder contains the preprocessed images that will be used by the model.
 
+## Captured Image
+
+![Image of Gemstone to be Analyzed](capture_image.png 'Image of Gemstone to be Analyzed')
+
+## Prediction Outcome
+
+![Image of Prediction](prediction.png 'Image of Prediction output')
+
 ### Step 2: Update Data Directory
 
 Navigate to line 6 in the `template.ipynb` file. Update the `data_dirpathname` variable with the correct path to your `dataset-processed` folder. This is essential to ensure the notebook can locate the dataset.
